@@ -37,7 +37,7 @@ Bu proje, **ISIC (International Skin Imaging Collaboration)** veri setlerini kul
 
 ```bash
 git clone https://github.com/feridunpozut/dermoscopic-melanoma-classification.git
-cd skin-lesion-classification
+cd dermoscopic-melanoma-classification
 pip install -r requirements.txt
 ```
 
