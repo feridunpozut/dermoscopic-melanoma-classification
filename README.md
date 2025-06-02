@@ -75,7 +75,7 @@ python hyperparameters_optimizer.py
 
 ## 🗒️ Lisans
 
-Bu proje açık kaynak olup araştırma ve eğitim amaçlı kullanılabilir. Lütfen ISIC veri lisans koşullarını göz önünde bulundurunuz.
+Copyright (c) 2025 feridunpozut
 
 ---
 
