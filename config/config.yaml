@@ -1,0 +1,42 @@
+# Eğitim parametreleri
+batch_size: 16
+learning_rate: 0.0001
+num_epochs: 5
+image_w: 128
+image_h: 128
+early_stopping_patience: 10
+
+# Model parametreleri
+architecture: efficientnet_b0
+pretrained: true
+freeze_backbone: false
+uncertainty_loss: false
+seed: 42
+k_fold: 5
+num_workers: 8
+
+# Model kaydetme
+model_save_path: ../experiments/checkpoints
+
+# Arayüz modeli
+best_model_path: ../experiments/checkpoints/best_model_efficientnet_b0_1.pt
+
+# Dosya yolları
+train_val_csv: ../data/splits/train_val_dataset2.csv
+test_csv: ../data/splits/test_dataset.csv
+
+# Veri ön işleme
+data_augmentation:
+  horizontal_flip: true
+  vertical_flip: true
+  rotation: true
+  rotation_degrees: 10
+
+# Artefakt yönetimi
+artefact_methods:
+  remove_hair: true
+  normalize_colors: false
+  correct_vignette: false
+  apply_clahe: true
+
+dataset_availability: true
